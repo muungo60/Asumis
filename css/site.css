@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Kreon:wght@700&family=Nunito+Sans:ital,wght@0,300;1,300&display=swap');
+
+html{
+   font-family: 'Nunito Sans', sans-serif;
+   font-weight: 300px;
+   font-size: 26px;
+}
+body {
+   margin: 0;
+}
+ul {
+   list-style-type : none;
+   margin : 0;
+   padding : 0;
+   overflow : hidden;
+
+}
+li {
+   display : inline;
+}
+li a {
+   position: relative;
+   color : white;
+   text-align : center;
+   padding-left: 1rem;
+   padding-right: 1.5rem;
+   text-decoration: none;
+}
+li a:hover {
+   background-color : #0619c2;
+}
+.active {
+   background-color : rgb(12, 11, 11);
+   padding-right: 1.8rem;
+   
+}
+ .container {
+   display: flex;
+   justify-content: space-between;
+   min-height: 20vh;
+ }
+ .navigation{
+   display: flex;
+   position: absolute;
+   font-size: .67rem;
+   text-align: right;
+   height: 300px;
+   width: 1800px;
+   margin-left: 20px;
+   background: rgba(100,100,100,0.02);
+}
+ .big_element, .small_element {
+   /*border: 1px solid black;*/
+   color: white;
+   padding: 1px;
+   flex: 2;
+ }
+ .big_element{
+    top: 0;
+ }
+ .small_element{
+   flex-grow: 4;
+   height: 10px;
+ }
+ #nav_item{
+    text-align: right;
+    margin-top: 20px;
+ }
+ #contact_item{
+   text-align: center;
+}
+#img{
+   max-width: 100%;
+
+}
+ .right {
+   display: flex;
+   flex: 4;
+   flex-direction: column;
+ }
+ footer{
+   color: #ffffff;
+   background-color: #000000;
+   font-size: .57rem;
+   padding: .4rem;
+   text-align: center;
+}
